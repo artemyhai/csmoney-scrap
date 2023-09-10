@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 TOKEN = '6504934904:AAG3FRJ4WXdIZOgq1RqybVSUuCK51h6tAik'
+=======
+TOKEN = "YOUR'S_TOKEN"
+>>>>>>> 4a6babda465d842360fc7d9a725922de95b8fafa
