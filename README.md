@@ -1,4 +1,5 @@
 This is a Telegram bot written in Python using the aiogram library. The bot provides information about discounted knives and gloves. It collects data from a source and displays it to the users.
+
 Prerequisites
 
     1. Python 3.7 or higher
