@@ -24,16 +24,16 @@
         "3d": "https://3d.cs.money/item/bd442408af00bf3cc636b960411bd3d5"
     },
     {
-        "full_name": "★ Paracord Knife | Case Hardened (Factory New)",
-        "price": 526.11,
-        "discount": -18.0074,
-        "3d": "https://3d.cs.money/item/3e8b514540aa821b8c3b7e41ac099322"
-    },
-    {
         "full_name": "★ Bayonet | Case Hardened (Well-Worn)",
         "price": 531.57,
         "discount": -28.091,
         "3d": "https://3d.cs.money/item/59ce4dd1ed4f72a8cd83f3bf53fc8683"
+    },
+    {
+        "full_name": "★ Paracord Knife | Case Hardened (Factory New)",
+        "price": 532.38,
+        "discount": -17.7836,
+        "3d": "https://3d.cs.money/item/3e8b514540aa821b8c3b7e41ac099322"
     },
     {
         "full_name": "★ StatTrak™ Gut Knife | Gamma Doppler Phase 2 (Minimal Wear)",

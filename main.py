@@ -64,10 +64,12 @@ def collect_data():
         json.dump(result, file, indent=4, ensure_ascii=False) 
     
     print(len(result))
-    
+
+
 def main():
     collect_data()
-    
+
+
 if __name__ == '__main__':
     main()
 
