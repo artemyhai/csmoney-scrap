@@ -20,6 +20,6 @@ Usage
   -Run the bot:
           python main.py
 
-  -Start the bot in Telegram by sending the /start command.
+-Start the bot in Telegram by sending the /start command.
   -Choose a category by clicking on one of the provided buttons.
   -The bot will collect data and display it to you. Each item will include a link, discount percentage, and price.
