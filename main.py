@@ -6,7 +6,7 @@ ua = UserAgent()
 # print(ua.random)
 
 
-def collect_data():
+def collect_data(cat_type=2):
     # response = requests.get(
     #     url='https://cs.money/1.0/market/sell-orders?limit=60&minPrice=10000&offset=0&type=2',
     #     headers={'user-agent': f'{ua.random}'}
@@ -25,7 +25,7 @@ def collect_data():
             # url = item 
             # print(url)
             
-            url = f'https://cs.money/1.0/market/sell-orders?limit=60&minPrice=2300&offset={item}&type=2'
+            url = f'https://cs.money/1.0/market/sell-orders?limit=60&minPrice=2300&offset={item}&type={cat_type}'
             reverse = requests.get(
                 url=url,
                 headers={'user-agent': f'{ua.random}'}
@@ -44,6 +44,13 @@ def collect_data():
                     item_discount = i.get('pricing')
                     item_3d = i.get('links')
                     
+                    if '3d' in item_3d:
+    # Получаем значение, связанное с ключом '3d'
+                        value = item_3d['3d']
+                    else:
+    # Обрабатываем случай, когда ключ '3d' отсутствует в словаре
+                        value = None  # или любое другое значение по умолчанию
+
                     result.append(
                         {
                            'full_name': item_full_name['names']['full'],
