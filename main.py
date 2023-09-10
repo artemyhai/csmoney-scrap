@@ -44,13 +44,6 @@ def collect_data(cat_type=2):
                     item_discount = i.get('pricing')
                     item_3d = i.get('links')
                     
-                    if '3d' in item_3d:
-    # Получаем значение, связанное с ключом '3d'
-                        value = item_3d['3d']
-                    else:
-    # Обрабатываем случай, когда ключ '3d' отсутствует в словаре
-                        value = None  # или любое другое значение по умолчанию
-
                     result.append(
                         {
                            'full_name': item_full_name['names']['full'],
